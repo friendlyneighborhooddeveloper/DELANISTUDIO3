@@ -1,0 +1,29 @@
+ .container {
+     text-align: center;
+ }
+ .tupak {
+     margin-left: 500%;
+     margin-top: 100%;
+ }
+ .p{
+    font-family: "Trirong", serif;
+}
+.h5{
+    font-family: "Trirong", serif;
+}
+.text-block{
+    font-family: "Trirong", serif;
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 9px;
+}
+.container{
+    position: relative;
+}
+
+
