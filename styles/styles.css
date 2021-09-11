@@ -1,36 +1,44 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css");
- .tupak {
-     margin-left: 500%;
-     margin-top: 100%;
- }
- .p{
-    font-family: "Trirong", serif;
-}
-.h5{
-    font-family: "Trirong", serif;
-}
-.text-block{
-    font-family: "Trirong", serif;
-    position: absolute;
-    bottom: 70px;
-    right: 50px;
-    color: white;
-    padding-left: 40px;
-    padding-right: 50px;
-    text-align: center;
-    font-size: 9px;
-}
-.container{
-    position: relative;
-    text-align: center;
-}
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 
+.banner{
+    position: relative;
+    width: 90%; 
+    margin: 0 auto;
+}
+.banner{
+    color: rgb(22, 3, 3);
+}
+.heading{
+    color: white; 
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+.header{
+    color: white;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+.paragraph{
+    color: white;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+}
+.logo1{
+    size: 40%;
+    position: absolute;
+    width: 10%;
+    bottom: 40%;
+    left: 50%;
+}
+.logo2{
+    width: 5%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    font-size: x-small;
+} 
