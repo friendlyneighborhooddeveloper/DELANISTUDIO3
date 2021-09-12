@@ -49,12 +49,11 @@
 .header3{
     position: absolute;
     color: white;
-    bottom: 60%;
-    right: 40%;
+    bottom: 5%;
+    right: 2%;
+    font-size-adjust: 0.7;
 }
-.paragraph2{
-    position: absolute;
-    bottom: 20%;
-    color: white;
-    left: 5%;
+
+.columns{
+    
 }
