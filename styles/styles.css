@@ -49,6 +49,12 @@
 .header3{
     position: absolute;
     color: white;
-    bottom: 50%;
-    
+    bottom: 60%;
+    right: 40%;
+}
+.paragraph2{
+    position: absolute;
+    bottom: 20%;
+    color: white;
+    left: 5%;
 }
