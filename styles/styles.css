@@ -42,3 +42,13 @@
     left: 50%;
     font-size: x-small;
 } 
+.header2{
+    position: relative;
+    text-decoration-color: white;
+}
+.header3{
+    position: absolute;
+    color: white;
+    bottom: 50%;
+    
+}
