@@ -45,8 +45,11 @@
 .header2{
     position: relative;
     text-decoration-color: white;
+    font-size:10vw;
+    width: auto;
 }
 .header3{
+    width: auto;
     position: absolute;
     color: white;
     bottom: 30%;
@@ -55,7 +58,8 @@
 }
 
 .rows{
-    padding-left: 15%;
+    padding-left: 18%;
+    
 }
 .portfolio1{
     font-size: large;
