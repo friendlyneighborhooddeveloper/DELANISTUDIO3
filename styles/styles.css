@@ -1,7 +1,7 @@
-body{
-    height: auto;
+html,body{
+    min-width: 100%;
     max-width: 100%;
-
+    background-attachment: absolute;
 }
 .banner{
     position: relative;
@@ -56,9 +56,10 @@ body{
     width: auto;
     position: absolute;
     color: white;
-    bottom: 30%;
-    right: 4%;
-    font-size: 10px;
+    font-size: 13px;
+    padding-right: 0%;
+    bottom: 50%;
+    padding-left: 30%;
 }
 
 .rows{
@@ -77,22 +78,54 @@ body{
     justify-content:center;
 }
 .design{
+    justify-content: center;
+    row-gap: 10px;
+    margin: auto;
+    width: 50%;
+}
+.tile_div{
+    padding-left: 30%;
+    border-spacing: 50px;
     
 }
-.development{
-   
+
+.tile_image {
+    float: left;
+    margin: 50px;
+    border: white;
+}
+
+.tile_image img {
+    position:absolute;
+}
+.tile_table{
+    border:  none;
+    border-spacing: 20px;
+}
+.tile_p {
+    text-align:center;
+    position:relative;
+    border: none;
 }
 .socialicons{
    margin-left: auto;
    margin-right: auto; 
 }
 .contact{
-    position: absolute;
+    position: relative;
     color: white;
-    text-align: center;
-    margin-left: 4%;
-    top: 426%;
-    opacity: 0.2;
-    border-color: white;
+    align-content: center;
+    top: 200%;
+    opacity: 1;
     width: 100%;
+    padding-left: 7%;
+}
+.contact2{
+    position: absolute;
+    opacity: 0.4;
+    top: 0%; 
+    bottom: 100%;
+    align-content: center;
+    padding-left: 20%;
+
 }
