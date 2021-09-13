@@ -66,9 +66,9 @@ html,body{
     padding-left: 18%;
 
 }
-.portfolio1{
-    font-size: large;
-    padding-left: 6%;
+.roller{
+    border: 1px solid white;
+    overflow: hidden;
 }  
 .Whatwedo{
     display: flex;

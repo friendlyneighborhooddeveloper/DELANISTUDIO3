@@ -97,13 +97,21 @@ Throughout your project, our designers create and implement visual design and wo
     </body>
            <br><br>
     <h2 style="text-align: center;">PORFOLIO</h2>
-<div class="portfolio1">
+<div class="roller">
+    <script>
+    $(document).ready(function(){
+      $("/images/work1.jpg, /home/martin/Week3IP/images/work2.jpg,/home/martin/Week3IP/images/work3.jpg , /home/martin/Week3IP/images/work4.jpg, /home/martin/Week3IP/images/work5.jpg, /home/martin/Week3IP/images/work6.jpg, images/work7.jpg, /home/martin/Week3IP/images/work8.jpg,").hide();
+      $(".roller").hover(function(){
+       $(this).find("#image_one, #image_two, #image_three, #image_four, #image_five, #image_six").toggle();
+    });
+});
+    </script>
 <div>
-    <img src="images/work1.jpg" style="width:24%">
+    <img src="images/work1.jpg" style="width: 24%">
     <img src="images/work2.jpg" style="width: 24%">
     <img src="images/work3.jpg" style="width: 24%;">
     <img src="images/work4.jpg" style="width: 24%;">
-</div>
+    </div>
 <div >
     <img src="images/work4.jpg" style="width: 24%;">
     <img src="images/work6.jpg" style="width: 24%;">
