@@ -9,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>">
 </head>
 <body>
-
     <style></style>
   <div>
     <div>
@@ -19,7 +21,7 @@
         <img src="images/logo1.png" class="logo1">
         <h1 class="heading">WELCOME </h1>
         <h1 class="header">TO DELANI STUDIO</h1>
-        <p class="paragraph">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT </p>
+        <p class="paragraph">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
         <img src="images/mouse_click.png" class="logo2">
     </div>
   </div>
@@ -48,18 +50,48 @@ Throughout your project, our designers create and implement visual design and wo
             <table class="tile_table">
                 <tr>
                     <td>
-                        <button><img class="tile_image" height="50px" width="100px" src="images/Icon2.png"/></button> 
-                        <p class="tile_p">DESIGN</p>
+                    <span>
+                        <button><img class="tile_image" height="50px" width="100px" src="images/Icon2.png"/>DESIGN</button>
+                        <script>
+                        $(document).ready(function(){
+                         $("button").click(function(){
+                         $("p1").toggle();
+                      });
+                    });
+                        </script> 
+                        <p1>Our design practice offers a full range of services including brand strategy, interaction and visua design and user experience testing</p1>
+                        <p1>Throughout your project ,our designers create and implement visual design and worflows,solicit user feedback and work with you to make sure what gets built in what is needed</p1>
+                    </span>
                     </td>
                     <td>
-                        <button><img class="tile_image" height="50px" width="100px" src="images/icon16.png"/></button> 
-                        <p class="tile_p">DEVELOPMENT</p>
-                    </td>
-                    <td>
-                       <button><img class="tile_image" height="50px" width="100px" src="images/icon4.png"/></button> 
-                        <p class="tile_p">PROJECT MANAGEMENT</p>
-                    </td>
-                </tr>
+                    <span>
+                        <button><img class="tile_image" height="50px" width="100px" src="images/icon16.png"/>DEVELOPMENT</button> 
+                        <p2>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p2>
+                        <p2>They collaborate with your team to write and improve code on a daiy basis , using proven practices such as test-driven development are pair programming</p2>
+                        <script>
+                            $(document).ready(function(){
+                             $("button").click(function(){
+                             $("p2").toggle();
+                      });
+                    });
+                        </script>
+                </span>    
+                </td>
+                <td>
+                <span>
+                        <button><img class="tile_image" height="50px" width="100px" src="images/icon4.png"/>PROJECT MANAGEMENT</button> 
+                        <p3>Planning and development is iteractive .Because we are constantly coding and testing the products we build are always ready to go live</p3>
+                        <p3>This iteractive process allows for change as business requirements evolve</p3>
+                        <script>
+                            $(document).ready(function(){
+                             $("button").click(function(){
+                             $("p3").toggle();
+                      });
+                    });
+                        </script>
+                </span>    
+            </td>    
+            </tr>
             </table>
         </div>
     </body>
