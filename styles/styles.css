@@ -86,7 +86,7 @@ html,body{
 .tile_div{
     padding-left: 30%;
     border-spacing: 50px;
-    
+
 }
 
 .tile_image {
@@ -101,12 +101,9 @@ html,body{
 .tile_table{
     border:  none;
     border-spacing: 20px;
+    padding-right: 30%;
 }
-.tile_p {
-    text-align:center;
-    position:relative;
-    border: none;
-}
+
 .socialicons{
    margin-left: auto;
    margin-right: auto; 
@@ -121,11 +118,13 @@ html,body{
     padding-left: 7%;
 }
 .contact2{
+    border-color: white;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.5;
     top: 0%; 
     bottom: 100%;
     align-content: center;
     padding-left: 20%;
+    text-decoration-color: white;
 
 }
